@@ -5,18 +5,18 @@ title: DarkNet | Tracking the underground drug trade
 
 ## The Problem
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+These days you can buy almost anything you want online. 
 
 ## The Dataset
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+The dataset consisted of an archive of sales listings from two popular, underground marketplaces: Evolution and Agora. Both marketplaces are now defunct. For example
 
 
-## D1 | Cleaning the Data
+## Cleaning the Data (D1)
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Parsing and cleaning approximately half-a-million listings requires mutliple tools. I learned a variety of tooutilized a number of stan
 
-## D2 | Descriptive Analyses
+## Descriptive Analyses (D2)
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
