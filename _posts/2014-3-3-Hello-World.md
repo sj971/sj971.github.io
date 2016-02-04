@@ -3,11 +3,9 @@ layout: post
 title: DarkNet | Tracking the underground drug trade
 ---
 
-## Background
+## Background and Problem
 
 During my time at Insight, I carried out a consulting project in collaboration with researchers at epidemico.com, a Boston-based data science company working in the population health domain.
-
-## The Problem
 
 These days you can buy almost anything you want online. Unfortunately, in parallel to legitimate internet commerce, a network of underground sales channels have spawned into life over the past decade or so, with powerful pharmaceuticals and harder drugs forming a large proportion of sales listings. While many of these so called 'DarkNet' sites eventually succumb to law enforcement endeavours or internal fraud, numerous large-scale marketplaces still exist such as AlphaBay and East India Company. 
 
