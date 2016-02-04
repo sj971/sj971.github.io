@@ -15,11 +15,11 @@ These days you can buy almost anything you want online. Unfortunately, in parall
 
 The dataset consisted of an archive of sales listings from a popular, underground marketplaces known as 'Evolution'. Listings were scraped at semi-regular intervals between January 2014 and March 2015, and were downloaded in their original, raw HTML format from a publicly available archive [give link]
 
-[give example pic of HTML]
+[give example pic of HTML, and associated website page picture]
 
 ## Cleaning the Data (D1)
 
-Parsing and cleaning data from approximately half-a-million HTML listings requires patience, and mutliple processing tools. I employed standard Python packages (e.g., Beautiful Soup, Pandas) to extract and organize information from individual HTML listings. Difficulties faced in this process were....
+Parsing and cleaning data from approximately half-a-million HTML listings requires mutliple processing tools, and a little patience. I employed standard Python packages (e.g., Beautiful Soup, Pandas) to extract and organize relevant information from individual HTML listings, such as..... Difficulties faced in this process were....
 
 [show example code]
 
@@ -29,4 +29,4 @@ The extracted information was sorted under relevant headings using
 
 ## Descriptive Analyses (D2)
 
-## A little about me...
+## Summary
