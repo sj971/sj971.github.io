@@ -19,7 +19,13 @@ The dataset consisted of an archive of sales listings from a popular, undergroun
 
 ## Cleaning the Data (D1)
 
-Parsing and cleaning approximately half-a-million listings requires mutliple tools.
+Parsing and cleaning data from approximately half-a-million HTML listings requires patience, and mutliple processing tools. I employed standard Python packages (e.g., Beautiful Soup, Pandas) to extract and organize information from individual HTML listings. Difficulties faced in this process were....
+
+[show example code]
+
+The extracted information was sorted under relevant headings using 
+
+[show example rows of dataframe
 
 ## Descriptive Analyses (D2)
 
