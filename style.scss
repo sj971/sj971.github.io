@@ -18,11 +18,11 @@ html {
 }
 
 body {
-	background: $white;
+	background: $black;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: $white;
 }
-
+// or formerly darkGrey
 .container {
   margin: 0 auto;
   max-width: 740px;
