@@ -5,15 +5,13 @@ title: DarkNet | Tracking the underground drug trade
 
 ## Background and Problem
 
-During my time at Insight, I carried out a consulting project for researchers at <epidemico.com>, a Boston-based data science company working in the population health domain.
+During my time at Insight, I carried out a consulting project for researchers at [Epidemico](http://www.epidemico.com), a Boston-based data science company working in the population health domain.
 
 The goal of the project was to clean and make sense of a large archive of 'DarkNet' pharmaceutical sales listings. se days you can buy almost anything you want online. Unfortunately, in parallel to legitimate internet commerce, a network of underground sales channels have spawned into life over the past decade or so, with powerful pharmaceuticals and harder drugs forming a large proportion of sales listings. While many of these so called 'DarkNet' sites eventually succumb to law enforcement endeavours or internal fraud, numerous large-scale marketplaces still exist such as AlphaBay and East India Company. 
 
 ## The Dataset
 
 The dataset consisted of an archive of sales listings from a popular, underground marketplace known as 'Evolution'. Listings were scraped at semi-regular intervals between January 2014 and March 2015, and were downloaded in their original, raw HTML format from a publicly available archive: <http://www.gwern.net/Black-market%20archives>
-
-[give example pic of HTML, and associated website page picture]
 
 ## Cleaning the Data
 
