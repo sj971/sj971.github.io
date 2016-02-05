@@ -18,13 +18,13 @@ The dataset consisted of an archive of sales listings from a popular, undergroun
 
 ## Cleaning the Data
 
-Parsing and cleaning data from approximately ~500,000 HTML listings requires mutliple processing tools and a little patience. I employed standard Python packages (e.g., Beautiful Soup, Pandas) to extract and organize relevant information from individual HTML listings.
+Parsing and cleaning data from approximately ~500,000 HTML listings requires mutliple processing tools and a little patience. I employed standard Python packages (e.g., Beautiful Soup, Pandas) to extract and organize relevant information from individual listings:
 
-`# find vendor info.`
-`temp = soup.find_all("div", "seller-info text-muted")[0]`
-`vendor = temp.find_all("a")[0].string`
+```# find vendor info.```
+```temp = soup.find_all("div", "seller-info text-muted")[0]```
+```vendor = temp.find_all("a")[0].string```
 
-This process was hampered by changes in page format at a number of points in the site's history.Difficulties faced in this process were....The extracted information was sorted under relevant headings using 
+This process was hampered by changes in page format at a number of points in the site's history. The extracted information was sorted under relevant headings using 
 
 [show example rows of dataframe
 
