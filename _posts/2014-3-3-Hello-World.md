@@ -12,19 +12,22 @@ These days you can buy almost anything you want online. Unfortunately, in parall
 ## The Dataset
 
 The dataset consisted of an archive of sales listings from a popular, underground marketplaces known as 'Evolution'. Listings were scraped at semi-regular intervals between January 2014 and March 2015, and were downloaded in their original, raw HTML format from a publicly available archive [give link]
+<http://www.gwern.net/Black-market%20archives>
 
 [give example pic of HTML, and associated website page picture]
 
-## Cleaning the Data (D1)
+## Cleaning the Data
 
-Parsing and cleaning data from approximately half-a-million HTML listings requires mutliple processing tools, and a little patience. I employed standard Python packages (e.g., Beautiful Soup, Pandas) to extract and organize relevant information from individual HTML listings, such as..... Difficulties faced in this process were....
+Parsing and cleaning data from approximately ~500,000 HTML listings requires mutliple processing tools and a little patience. I employed standard Python packages (e.g., Beautiful Soup, Pandas) to extract and organize relevant information from individual HTML listings.
 
-[show example code]
+`# find vendor info.`
+`temp = soup.find_all("div", "seller-info text-muted")[0]`
+`vendor = temp.find_all("a")[0].string`
 
-The extracted information was sorted under relevant headings using 
+This process was hampered by changes in page format at a number of points in the site's history.Difficulties faced in this process were....The extracted information was sorted under relevant headings using 
 
 [show example rows of dataframe
 
-## Descriptive Analyses (D2)
+## Descriptive Analyses
 
 ## Summary
