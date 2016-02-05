@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+A little bit about me!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I recently completed a Ph.D. in Neural Science at New York University, with a focus on computational models of vision.
+Prior to that I worked as a research assistant at Vanderbilt University, and received undergraduate and masters degrees in psychology and cognitive science from University College Dublin, Ireland.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[stuartpjackson@gmail.com](mailto:stuartpjackson@gmail.com)
