@@ -5,7 +5,9 @@ title: DarkNet | Tracking the underground drug trade
 
 ## Background and Problem
 
-While at Insight, I carried out a consulting project for researchers at [Epidemico](http://www.epidemico.com), a Boston-based data science company working in the population health domain. The goal of the project was to clean and begin making sense of a large archive of 'DarkNet' drug sales listings. Darknet drug trading plays a significant role in the supply-chain of both counterfeit pharmaceuticals and recreational drugs of abuse, and is thought to take many 10's of billions of dollars per year from legal pharmaceutical trading.
+While at Insight, I carried out a consulting project for researchers at [Epidemico](http://www.epidemico.com), a Boston-based data science company working in the population health domain. The goals of the project were to clean and sort a large archive of underground drug sale listings, and to carry out descriptive analyses of . 
+
+Black market drug trading plays a significant role in the supply-chain of both counterfeit pharmaceuticals and recreational drugs of abuse, and takes many billions of dollars per year from legal pharmaceutical trading.
 
 ## The Dataset
 
