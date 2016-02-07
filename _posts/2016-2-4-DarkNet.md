@@ -1,7 +1,6 @@
 ---
 layout: post
 title: DarkNet | Tracking the underground drug trade
-excerpt_separator: ""
 ---
 
 ## Background and Problem
