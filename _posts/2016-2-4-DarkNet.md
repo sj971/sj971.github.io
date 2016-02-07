@@ -1,6 +1,7 @@
 ---
 layout: post
 title: DarkNet | Tracking the underground drug trade
+excerpt_separator: <!--more-->
 ---
 
 ## Background and Problem
@@ -34,4 +35,4 @@ I then sorted the extracted information into python dataframes, detailing key in
 
 ## Summary
 Unfortunately, in parallel to legitimate internet commerce, a network of underground sales channels have spawned into life over the past decade or so, with powerful pharmaceuticals and harder drugs forming a large proportion of sales listings. While many of these so called 'DarkNet' sites eventually succumb to law enforcement endeavours or internal fraud, numerous large-scale marketplaces still exist such as AlphaBay and East India Company. 
-
+<!--more-->
