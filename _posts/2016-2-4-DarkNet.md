@@ -7,7 +7,7 @@ title: DarkNet | Tracking the underground drug trade
 
 While at Insight, I carried out a consulting project for researchers at [Epidemico](http://www.epidemico.com), a Boston-based data science company working in the population health domain. 
 
-The goal of the project was to clean and sort a large archive of underground drug sales listings, providing a potentially valuable resource for Epidemico and clients. I also carried out descriptive analyses of the data, studying specifically the relationships between country of origin, vendor, and product type.
+The goal of the project was to clean and sort a large archive of underground drug sales listings, providing a potentially valuable resource for Epidemico and clients. I also carried out descriptive analyses of the data, studying specifically relationships between country of origin and vendor/product type.
 
 ## The Dataset
 
