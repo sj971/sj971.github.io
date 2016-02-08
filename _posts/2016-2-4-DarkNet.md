@@ -3,19 +3,18 @@ layout: post
 title: DarkNet | Tracking the underground drug trade
 ---
 
-## Background and Problem
+## Background
 
-While at Insight, I carried out a consulting project for researchers at [Epidemico](http://www.epidemico.com), a Boston-based data science company working in the population health domain. The goals of the project were to clean and sort a large archive of underground drug sale listings, and to carry out descriptive analyses of . 
-
-Black market drug trading plays a significant role in the supply-chain of both counterfeit pharmaceuticals and recreational drugs of abuse, and takes many billions of dollars per year from legal pharmaceutical trading.
+While at Insight, I carried out a consulting project for researchers at [Epidemico](http://www.epidemico.com), a Boston-based data science company working in the population health domain. The goal of the project was to clean and sort a large archive of underground drug sales listings. I also carried out descriptive analyses of the data, studying relationships between  information such as country of origin, product type, and vendor.
+<!--more-->
 
 ## The Dataset
 
-The dataset consisted of an archive of sales listings from a popular, underground marketplace known as 'Evolution'. Listings were scraped from the Evolution website at semi-regular intervals between January 2014 and March 2015, and were downloaded in their original, raw HTML format from a publicly available archive: <http://www.gwern.net/Black-market%20archives>
+The dataset consisted of an archive of sales listings from a popular, underground marketplace known as 'Evolution'. Listings were originally scraped from the Evolution website by a [psuedo-anonymous hacker](http://www.gwern.net), at semi-regular intervals between January 2014 and March 2015. The full archives raw HTML format from a publicly available archive: <http://www.gwern.net/Black-market%20archives>
 
 ## Cleaning the Data
 
-Parsing and cleaning data from approximately ~500,000 HTML listings requires mutliple processing tools and a little patience. This process was hampered by changes in page format at a number of points in the site's history. I employed standard Python packages (e.g., Beautiful Soup, Pandas) to extract and organize relevant information from individual listings. For example, vendor ID was extracted for each listing:
+I first extracted only the raw HTML files from the .tarball archive, ignoring image files, configuration files, etc. In total, the Evolution dataset contained approximately ~500,000 product listings over the time period covered by the archive. I then set about requires mutliple processing tools and a little patience. This process was hampered by changes in page format at a number of points in the site's history. I employed standard Python packages (e.g., Beautiful Soup, Pandas) to extract and organize relevant information from individual listings. For example, vendor ID was extracted for each listing:
 
 ```python
 soup = BeautifulSoup(current_listing, 'html.parser')
@@ -33,5 +32,4 @@ I then sorted the extracted information into python dataframes, detailing key in
 ## Descriptive Analyses
 
 ## Summary
-Unfortunately, in parallel to legitimate internet commerce, a network of underground sales channels have spawned into life over the past decade or so, with powerful pharmaceuticals and harder drugs forming a large proportion of sales listings. While many of these so called 'DarkNet' sites eventually succumb to law enforcement endeavours or internal fraud, numerous large-scale marketplaces still exist such as AlphaBay and East India Company. 
-<!--more-->
+Unfortunately, in parallel to legitimate internet commerce, a network of underground sales channels have spawned into life over the past decade or so, with powerful pharmaceuticals and harder drugs forming a large proportion of sales listings. While many of these so called 'DarkNet' sites eventually succumb to law enforcement endeavours or internal fraud, numerous large-scale marketplaces still exist such as AlphaBay and East India Company.
