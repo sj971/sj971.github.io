@@ -38,7 +38,7 @@ The extracted information was sorted into Python dataframes (Pandas), and saved 
 
 An example of the type of listings extracted from the archive:
 
-[show example rows of dataframe]
+[TBD]
 
 ## Descriptive Analyses
 
@@ -46,7 +46,7 @@ I performed several descriptive analyses of the data, focussing on broad markers
 
 For example, by sourcing where individual listings were 'Shipped From', we can illustrate the distribution of listings by country of origin. Not surprisingly, the US accounts for a large proportion of individual listings:
 
-[fig TBD]
+[TBD]
 
 ## Summary
 I successfully cleaned and sorted a large archive of black market, drug sales listings. Numerous large-scale DarkNet marketplaces still exist (e.g., AlphaBay). By creating a clean database and developing the tools to study such marketplaces, I have added a valuable resource from which to study and predict sales listings behavior on currently active marketplaces.
