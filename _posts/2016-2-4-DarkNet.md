@@ -11,11 +11,13 @@ The goal of the project was to clean and sort a large archive of underground dru
 
 ## The Dataset
 
-The dataset consisted of an archive of sales listings from a popular, underground marketplace known as 'Evolution'. Listings were originally scraped from the Evolution website by a [psuedo-anonymous hacker](http://www.gwern.net), at semi-regular intervals between January 2014 and March 2015. The full archives raw HTML format from a publicly available archive: <http://www.gwern.net/Black-market%20archives>
+The dataset consisted of an archive of sales listings from a popular, underground marketplace known as 'Evolution'. Sales listings were originally scraped from the Evolution website by a [psuedo-anonymous hacker](http://www.gwern.net), at semi-regular intervals between January 2014 and March 2015, and can be d from a publicly available archive: <http://www.gwern.net/Black-market%20archives>
 
 ## Cleaning the Data
 
-I first extracted only the raw HTML files from the .tarball archive, ignoring image files, configuration files, etc. In total, the Evolution dataset contained approximately ~500,000 product listings over the time period covered by the archive. I then set about requires mutliple processing tools and a little patience. This process was hampered by changes in page format at a number of points in the site's history. I employed standard Python packages (e.g., Beautiful Soup, Pandas) to extract and organize relevant information from individual listings. For example, vendor ID was extracted for each listing:
+I began by extracting the raw HTML files from the archive, ignoring configuration files, image files etc. In total, the Evolution dataset contained approximately ~15GB of raw HTML or ~500,000 product listings over the time period covered by the archive. 
+
+I then set about processing tools and a little patience. This process was hampered by changes in page format at a number of points in the site's history. I employed standard Python packages (e.g., Beautiful Soup, Pandas) to extract and organize relevant information from individual listings. For example, vendor ID was extracted for each listing:
 
 ```python
 soup = BeautifulSoup(current_listing, 'html.parser')
