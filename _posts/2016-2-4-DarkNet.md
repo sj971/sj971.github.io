@@ -49,5 +49,5 @@ For example, by sourcing where individual listings were 'Shipped From', we can i
 [fig TBD]
 
 ## Summary
-I successfully cleaned and sorted a large archive of black market, drug sales listings. Numerous large-scale DarkNet marketplaces still exist (e.g., AlphaBay),
+I successfully cleaned and sorted a large archive of black market, drug sales listings. Numerous large-scale DarkNet marketplaces still exist (e.g., AlphaBay). By creating a clean database and developing the tools to study such marketplaces, I have added a valuable resource from which to study and predict sales listings behavior on currently active marketplaces.
 <!--more-->
