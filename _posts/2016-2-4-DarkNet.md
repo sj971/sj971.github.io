@@ -7,18 +7,17 @@ title: DarkNet | Tracking the underground drug trade
 
 While at Insight, I carried out a consulting project for researchers at [Epidemico](http://www.epidemico.com), a Boston-based data science company working in the population health domain. 
 
-The goal of the project was to clean and sort a large archive of underground drug sales listings, providing a valuable resource for Epidemico and their clients. I also carried out descriptive analyses of the data, studying the relationships between country of origin, vendor, and product type.
+The goal of the project was to clean and sort a large archive of underground drug sales listings, providing a potentially valuable resource for Epidemico. I also carried out descriptive analyses of the data, studying specifically the relationships between country of origin, vendor, and product type.
 
 ## The Dataset
 
-The dataset consisted of an archive of sales listings from a popular, underground website known as 'Evolution', spanning the time period from January 2014 and March 2015. 
+The dataset consisted of an archive of sales listings from a popular, underground website known as 'Evolution', and spanned the time period from January 2014 to March 2015. 
 
-Sales listings were originally scraped from the website by a psuedo-anonymous hacker, and were downloaded from a publicly available archive: <http://www.gwern.net/Black-market%20archives>
+Listings were originally scraped from the website by a psuedo-anonymous hacker, and I downloaded them from a publicly available archive: <http://www.gwern.net/Black-market%20archives>; 
 
 ## Cleaning the Data
 
-I began by extracting from the archive all HTML files related to product listings, ignoring configuration, image files etc. In total, the Evolution dataset contained approximately ~15GB of raw HTML, or ~500,000 product listings, over the time period covered by the archive. 
-
+I began by extracting from the archive all HTML files related to product listings, ignoring configuration, image files etc. In total, the dataset contained approximately ~15GB of raw HTML, or ~500,000 product listings, over the 14-month time period. 
 I then set about navigating individual pages using Beautiful Soup, a standard Python package for processing HTML. I extracted key information about individual listings e.g., title, product, country of origin, vendor and price. For example, vendor ID was extracted using code similar to below:
 
 ```python
