@@ -11,9 +11,7 @@ The goal of the project was to clean and sort a large archive of underground dru
 
 ## The Dataset
 
-The dataset consisted of an archive of sales listings from a popular, underground website known as 'Evolution', and spanned the time period from January 2014 to March 2015. 
-
-Listings were originally scraped from the website by a psuedo-anonymous hacker, and I downloaded them from a publicly available archive: <http://www.gwern.net/Black-market%20archives>; 
+The dataset consisted of an archive of sales listings from a popular, underground website known as 'Evolution', and spanned the time period from January 2014 to March 2015. The dataset was downloaded from a publicly available archive: <http://www.gwern.net/Black-market%20archives>; 
 
 ## Cleaning the Data
 
@@ -36,20 +34,20 @@ Overall, the cleaning process was hampered by the sheer volume of listings, as w
 
 ## Sorting the Data
 
-The extracted information was sorted into python dataframes (Pandas), and saved to .csv files for each date contained in the archive.
+The extracted information was sorted into Python dataframes (Pandas), and saved to .csv files for each date contained in the archive. The data was also loaded in a MySQL database.
+
+An example of the type of listings extracted from the archive:
 
 [show example rows of dataframe]
 
 ## Descriptive Analyses
 
-Country of Origin
+I performed several descriptive analyses of the data, focussing on broad markers of the distribution of drug listings e.g., by country of origin, vendor and product type.
 
-Top Five drugs by country
+For example, by sourcing where individual listings were 'Shipped From', we can illustrate the distribution of listings by country of origin:
 
-Top Five drugs by vendor
-
-1g cocaine / 1g oxycodone
+[fig TBD]
 
 ## Summary
-I successfully cleaned and sorted a large archive of black market, drug sales listings.  Unfortunately, in parallel to legitimate internet commerce, a network of underground sales channels have spawned into life over the past decade or so, with powerful pharmaceuticals and harder drugs forming a large proportion of sales listings. While many of these so called 'DarkNet' sites eventually succumb to law enforcement endeavours or internal fraud, numerous large-scale marketplaces still exist such as AlphaBay and East India Company.
+I successfully cleaned and sorted a large archive of black market, drug sales listings. Numerous large-scale DarkNet marketplaces still exist (e.g., AlphaBay),
 <!--more-->
