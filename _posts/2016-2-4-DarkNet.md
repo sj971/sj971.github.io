@@ -17,7 +17,7 @@ The dataset consisted of an archive of sales listings from a popular, undergroun
 
 I began by extracting all HTML files related to product listings from the archive, ignoring configuration, image files etc. In total, the Evolution dataset contained approximately ~15GB of raw HTML or ~500,000 product listings over the time period covered by the archive. 
 
-I then set about navigating individual pages using a standard Python package for processing HTML, Beautiful Soup, and extracted key information about individual listings e.g., title, product, country of origin, vendor and price. For example, vendor ID was extracted using code similar to:
+I then set about navigating individual pages using Beautiful Soup, a standard Python package for processing HTML. I extracted key information about individual listings e.g., title, product, country of origin, vendor and price. For example, vendor ID was extracted using code similar to below:
 
 ```python
 # prepare the soup
@@ -28,9 +28,11 @@ temp = soup.find_all("div", "seller-info text-muted")[0]
 vendor = temp.find_all("a")[0].string
 ```
 
-This process was hampered by the sheer volume of listings, as well as changes in the webpage format (and associated HTML tags) at a number of points in the site's history.
+Overall, the cleaning process was hampered by the sheer volume of listings, as well as changes in the webpage format (and associated HTML tags) at a number of points in the site's history.
 
-The extracted information was then sorted into python dataframes (Pandas), and saved into .csv files for initial exploratory analyses. I also stored the extracted 
+## Sorting the Data
+
+The extracted information was sorted into python dataframes (Pandas), and saved to .csv files for each date contained in the archive.
 
 [show example rows of dataframe]
 
