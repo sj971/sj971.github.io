@@ -36,7 +36,7 @@ The cleaning process was hampered by occasional changes in website/HTML format, 
 
 ## Sorting the Data
 
-For each date contained in the archives, the extracted information was sorted into dataframes (Pandas), and saved to .csv file. When all data was extracted, I loaded the resulting .csv files into a MySQL database for final storage.
+For each date contained in the archives, the extracted information was sorted into a dataframe (Pandas), and saved to .csv file. When data was extracted for the entire archive timeline, I loaded the resulting .csv files into a MySQL database for final storage.
 
 An example of the type of listings extracted from the archive:
 
