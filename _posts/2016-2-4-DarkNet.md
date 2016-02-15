@@ -51,5 +51,7 @@ For example, by sourcing where individual listings were 'Shipped From', we can i
 [TBD]
 
 ## Summary
-I successfully cleaned and sorted a large archive of black market, drug sales listings. Numerous large-scale DarkNet marketplaces still exist (e.g., AlphaBay). By creating a clean database and developing the tools to study such marketplaces, I have added a valuable resource from which to study and predict sales listings behavior on currently active marketplaces.
+I successfully cleaned and sorted a large archive of DarkNet drug sales listings, and analyzed key markers of the distribution of drug listings. 
+
+Numerous large-scale DarkNet marketplaces still exist (e.g., AlphaBay). By developing a database and tools to study such marketplaces, I have added a valuable resource from which Epidemico to study and predict sales listings behavior on currently active marketplaces.
 <!--more-->
