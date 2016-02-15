@@ -46,9 +46,12 @@ An example of the type of listings extracted from the archive:
 
 I performed several descriptive analyses of the data, focussing on broad markers of the distribution of drug listings e.g., by country of origin, vendor and product type.
 
-For example, by sourcing where individual listings were 'Shipped From', we can illustrate the distribution of listings by country of origin. Not surprisingly, the US accounts for a large proportion of individual listings:
+For example, by sourcing where individual listings were 'Shipped From', we can illustrate the distribution of listings by country of origin. Perhaps not surprisingly, the US accounts for a large proportion of individual listings:
 
 [TBD]
+
+## From DarkNet to the street
+
 
 ## Summary
 I successfully cleaned and sorted a large archive of DarkNet drug sales listings, and analyzed key markers of the distribution of drug listings. 
