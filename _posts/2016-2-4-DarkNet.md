@@ -7,11 +7,13 @@ title: DarkNet | Tracking the underground drug trade
 
 While at Insight, I carried out a consulting project for researchers at [Epidemico](http://www.epidemico.com), a Boston-based data science company working in the population health domain. 
 
-The goal of the project was to clean and sort a large archive of DarkNet drug sales listings, providing a potentially valuable database for Epidemico and clients. I also carried out descriptive analyses of the data, with a focus on unique country, product type, and vendor combinations. In one surprising finding, I found evidence of large price differences between DarkNet sales of certain pharmaceuticals and typical street prices sourced from a crowdsourcing website (.
+The goal of the project was to clean and sort a large archive of DarkNet drug sales listings, providing a potentially valuable database for Epidemico and clients. I also carried out descriptive analyses of the data, focussing on unique country, product type, and vendor combinations. 
+
+In one surprising finding, I found evidence of large price differences between DarkNet sales of certain pharmaceuticals and typical street prices reported on a crowdsourcing website (<streetrx.com>).
 
 ## The Dataset
 
-The primary dataset consisted of an archive of sales listings from a popular, underground website known as 'Evolution'. These listings spanned the time period from January 2014 to March 2015, and were downloaded in raw form from a publicly available archive: <http://www.gwern.net/Black-market%20archives>. In a later analysis, I also extracted listings info. from a second archived website known as 'Agora'.
+The dataset consisted of an archive of sales listings from a popular, underground website known as 'Evolution'. These listings spanned the time period from January 2014 to March 2015, and were downloaded in raw form from a publicly available archive: <http://www.gwern.net/Black-market%20archives>.
 
 ## Cleaning the Data
 
