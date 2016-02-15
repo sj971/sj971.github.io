@@ -13,11 +13,11 @@ In one surprising finding, I found evidence of large price differences between D
 
 ## The Dataset
 
-The dataset consisted of an archive of sales listings from two popular, underground websites known as 'Evolution' and 'Agora'. The listings spanned the time period from early 2014 through mid 2015, and were downloaded in raw form from a publicly available archive: <http://www.gwern.net/Black-market%20archives>.
+The dataset consisted of archives of sales listings from two popular, underground websites known as 'Agora' and 'Evolution'. The listings spanned the time period from early 2014 through mid 2015, and were downloaded in raw form from a publicly available resource: <http://www.gwern.net/Black-market%20archives>.
 
 ## Cleaning the Data
 
-I began by extracting from the archive all HTML files related to product listings, ignoring configuration, image files etc. In total, the entire dataset contained approximately ~20GB of raw HTML, or ~500,000 product listings.
+I began by extracting from the archives all HTML files related to product listings, ignoring configuration, image files etc. In total, the entire dataset contained approximately ~20GB of raw HTML, or ~500,000 product listings.
 
 I then set about navigating individual pages using Beautiful Soup, a standard Python package for processing HTML, searching specifically for drug products. I extracted key information about individual listings e.g., title, product, country of origin, vendor, price, and so on. 
 
