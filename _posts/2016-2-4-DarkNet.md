@@ -49,6 +49,9 @@ I performed several descriptive analyses of the data, with a focus on the broad 
 For example, by sourcing where individual listings were 'Shipped From', we can illustrate the distribution of listings by country of origin. Perhaps not surprisingly, the US accounts for a large proportion of individual listings:
 
 [TBD]
+An image, located within /images
+
+![an image alt text]({{ site.baseurl }}/images/image_preview.png "an image title")
 
 ## Pricing Behavior
 
