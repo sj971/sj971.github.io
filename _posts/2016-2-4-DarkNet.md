@@ -9,7 +9,7 @@ While at Insight, I carried out a consulting project for researchers at [Epidemi
 
 The goal of the project was to clean and sort a large archive of DarkNet drug sales listings, providing a potentially valuable database for Epidemico and clients. I also carried out descriptive analyses of the data, focussing on unique country, product type, and vendor combinations. 
 
-In one surprising finding, I found evidence of large price differences between DarkNet sales of certain pharmaceuticals and typical street prices reported on a crowdsourcing website (<streetrx.com>).
+In one surprising finding, I found evidence of large price differences between DarkNet sales of certain pharmaceuticals and typical street prices reported on a crowdsourcing website (<http://www.streetrx.com>).
 
 ## The Dataset
 
