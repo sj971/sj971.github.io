@@ -13,13 +13,13 @@ In one surprising finding, I found evidence of large price differences between D
 
 ## The Dataset
 
-The dataset consisted of an archive of sales listings from a popular, underground website known as 'Evolution'. These listings spanned the time period from January 2014 to March 2015, and were downloaded in raw form from a publicly available archive: <http://www.gwern.net/Black-market%20archives>.
+The dataset consisted of an archive of sales listings from two popular, underground websites known as 'Evolution' and 'Agora'. The listings spanned the time period from early 2014 through mid 2015, and were downloaded in raw form from a publicly available archive: <http://www.gwern.net/Black-market%20archives>.
 
 ## Cleaning the Data
 
-I began by extracting from the archive all HTML files related to product listings, ignoring configuration, image files etc. In total, the entire dataset contained approximately ~20GB of raw HTML, or ~500,000 product listings, over the 14-month time period.
+I began by extracting from the archive all HTML files related to product listings, ignoring configuration, image files etc. In total, the entire dataset contained approximately ~20GB of raw HTML, or ~500,000 product listings.
 
-I then set about navigating individual pages using Beautiful Soup, a standard Python package for processing HTML. I extracted key information about individual listings e.g., title, product, country of origin, vendor and price. 
+I then set about navigating individual pages using Beautiful Soup, a standard Python package for processing HTML, searching specifically for drug products. I extracted key information about individual listings e.g., title, product, country of origin, vendor, price, and so on. 
 
 For example, vendor ID was extracted using code similar to below:
 
@@ -32,11 +32,11 @@ temp = soup.find_all("div", "seller-info text-muted")[0]
 vendor = temp.find_all("a")[0].string
 ```
 
-The cleaning process was hampered by the sheer volume of listings, as well as changes in the webpage format (and associated HTML tags) at a number of points in the site's history.
+The cleaning process was hampered by occasional changes in website format (and associated HTML tags), as well as by the sheer volume of listings. However, I managed to develop a relatively consice set of Python scripts to parse listings from both websites automatically.
 
 ## Sorting the Data
 
-The extracted information was sorted into Python dataframes (Pandas), and saved to .csv files for each date contained in the archive. The data was also loaded into a MySQL database.
+The extracted information was sorted into Python dataframes (Pandas), and saved to .csv files for each date contained in the archives. When all data was extracted, I loaded the .csv files into a MySQL database for final storage.
 
 An example of the type of listings extracted from the archive:
 
