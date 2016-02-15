@@ -8,7 +8,7 @@ I recently completed a PhD in computational neuroscience at New York University,
 
 Previously I worked as a research assistant at Vanderbilt University, and studied psychology and cognitive science at University College Dublin, Ireland.
 
-In my spare time, I like to travel, and occasionally I play music with [a small, folk band](http://www.seafarersunite.com).
+I like to travel in my spare time, and occasionally I play music with [a small, folk band](http://www.seafarersunite.com).
 
 ### Contact me
 
