@@ -40,7 +40,7 @@ For each date contained in the archives, the extracted information was sorted in
 
 An example of the type of listings extracted from the archive:
 
-[TBD]
+![Database]({{ site.baseurl }}/images/fig2.png "Example of listing info.")
 
 ## Descriptive Analyses
 
@@ -48,16 +48,7 @@ I performed several descriptive analyses on the data, with a focus on the broad 
 
 For example, by sourcing where individual listings were 'Shipped From', we can illustrate the distribution of listings by country of origin. Perhaps not surprisingly, the US accounts for a large proportion of individual listings:
 
-[TBD]
-An image, located within /images
-
-![an image alt text]({{ site.baseurl }}/images/image_preview.png "an image title")
-
-## Pricing Behavior
-
-A pharmaceutical of particular interest to researchers at Epidemico is Alprazolam ('Xanax'). Why....2 sentence....US, UK, Germany, Australia
-
-![an image alt text]({{ site.baseurl }}/images/image_preview.png "an image title")
+![Country of origin]({{ site.baseurl }}/images/fig3.png "Listings origin")
 
 ## Summary
 I successfully cleaned and sorted a large archive of DarkNet drug sales listings, and analyzed a number of features of the archive. 
