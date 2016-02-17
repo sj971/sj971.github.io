@@ -7,13 +7,13 @@ title: DarkNet | Tracking the underground drug trade
 
 While at Insight, I carried out a consulting project for researchers at [Epidemico](http://www.epidemico.com), a Boston-based data science company working in the population health domain. 
 
-The goal of the project was to clean and sort a large archive of DarkNet drug sales listings, providing a potentially valuable database for Epidemico and their clients. In one surprising finding, I found evidence of large price differences between DarkNet sales of certain pharmaceuticals and typically reported street prices. I also carried out detailed descriptive analyses of the data, with a focus on unique country, product type, and vendor combinations.
+The goal of the project was to clean and sort a large archive of DarkNet drug sales listings, providing a potentially valuable resource for Epidemico and their clients. I also carried out descriptive analyses of the data, with a focus on metrics such as country of origin, product type, and pricing. In one surprising result, I found evidence of large price differences between DarkNet sales of certain pharmaceuticals and typically reported street prices.
 
 ## The Dataset
 
 The dataset consisted of sales listings from two popular, underground websites known as 'Agora' and 'Evolution'. 
 
-Listings spanned the period from early 2014 through mid 2015, and were downloaded in raw form from a publicly accessible archive: <http://www.gwern.net/Black-market%20archives>.
+Listings spanned the period from early 2014 through mid 2015, and were downloaded from a publicly accessible archive: <http://www.gwern.net/Black-market%20archives>.
 
 ## Cleaning the Data
 
@@ -44,7 +44,7 @@ An example of the type of listings extracted from the archive:
 
 ## Descriptive Analyses
 
-I performed several descriptive analyses of the data, with a focus on the broad features of the distribution of drug listings e.g., country of origin, and unique vendor/product combinations.
+I performed several descriptive analyses on the data, with a focus on the broad features of the distribution of drug listings e.g., country of origin, product type, and pricing.
 
 For example, by sourcing where individual listings were 'Shipped From', we can illustrate the distribution of listings by country of origin. Perhaps not surprisingly, the US accounts for a large proportion of individual listings:
 
@@ -55,10 +55,12 @@ An image, located within /images
 
 ## Pricing Behavior
 
+A pharmaceutical of particular interest to researchers at Epidemico is Alprazolam ('Xanax'). Why....2 sentence....US, UK, Germany, Australia
 
+![an image alt text]({{ site.baseurl }}/images/image_preview.png "an image title")
 
 ## Summary
-I successfully cleaned and sorted a large archive of DarkNet drug sales listings, and analyzed key features of the distribution of drug listings. 
+I successfully cleaned and sorted a large archive of DarkNet drug sales listings, and analyzed a number of features of the archive. 
 
 Numerous large-scale DarkNet marketplaces are still in active operation (e.g., AlphaBay). By developing a database and tools to study such marketplaces, I have provided a valuable resource upon which Epidemico and their clients can base their investigation of currently active marketplaces.
 <!--more-->
