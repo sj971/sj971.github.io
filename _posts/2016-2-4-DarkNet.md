@@ -40,7 +40,7 @@ For each date contained in the archives, the extracted information was sorted in
 
 An example of the type of listings extracted from the archive:
 
-![Database]({{ site.baseurl }}/images/fig2.png "Example of listing info.")
+![Database]({{ site.baseurl }}/images/fig2_mod.png "Example of listing info.")
 
 ## Descriptive Analyses
 
@@ -48,10 +48,8 @@ I performed several descriptive analyses on the data, with a focus on the broad 
 
 For example, by sourcing where individual listings were 'Shipped From', we can illustrate the distribution of listings by country of origin. Perhaps not surprisingly, the US accounts for a large proportion of individual listings:
 
-![Country of origin]({{ site.baseurl }}/images/fig3.png "Listings origin")
+![Country of origin]({{ site.baseurl }}/images/fig3_mod.png "Listings origin")
 
 ## Summary
-I successfully cleaned and sorted a large archive of DarkNet drug sales listings, and analyzed a number of features of the archive. 
-
-Numerous large-scale DarkNet marketplaces are still in active operation (e.g., AlphaBay). By developing a database and tools to study such marketplaces, I have provided a valuable resource upon which Epidemico and their clients can base their investigation of currently active marketplaces.
+I successfully cleaned and sorted a large archive of DarkNet drug sales listings. Numerous large-scale DarkNet marketplaces are still in active operation (e.g., AlphaBay). By developing a database and tools to study such marketplaces, I have provided a valuable resource upon which Epidemico and their clients can base their investigation of currently active marketplaces.
 <!--more-->
