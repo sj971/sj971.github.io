@@ -32,13 +32,13 @@ temp = soup.find_all("div", "seller-info text-muted")[0]
 vendor = temp.find_all("a")[0].string
 ```
 
+## Sorting the Data
+
 Aside from the sheer volume of raw HTML to be processed, the cleaning and sorting was hampered by a number of other factors, such as: 
 - large changes in website formatting across the timeline of the archives
 - a lack of detailed drug labeling and categorization at the level of the raw HTML
 
 In the end, I managed to develop a relatively concise set of Python scripts that parsed the archives automatically, extracting the core listings information.
-
-## Sorting the Data
 
 For each date contained in the archives, the extracted information was sorted into a dataframe (Pandas), and saved to .csv file. When data were extracted for the entire timeline, I loaded the resulting .csv files into a MySQL database for final storage.
 
