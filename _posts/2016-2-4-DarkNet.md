@@ -17,7 +17,7 @@ Listings spanned the period from early 2014 through mid 2015, and were downloade
 
 ## Cleaning the Data
 
-The first task was to extract from the archives all HTML files related to product listings, ignoring configuration files, image files, etc. In total, the dataset contained approximately ~20GB of raw HTML, or ~500,000 product listings.
+The first task was to extract from the archives all HTML files related to product listings, ignoring configuration files, image files, etc. In total, the dataset contained approximately 20GB of raw HTML, with over 500,000 product listings.
 
 I navigated individual pages using Beautiful Soup, a standard Python package for processing HTML, searching for listings of drug products. I extracted key information about individual drug listings e.g., title, product, country of origin, vendor and price. 
 
@@ -32,7 +32,11 @@ temp = soup.find_all("div", "seller-info text-muted")[0]
 vendor = temp.find_all("a")[0].string
 ```
 
-The cleaning process was hampered by occasional changes in website and HTML formatting across the timeline of the archives, as well as by the sheer volume of listings. However, I managed to develop a relatively concise set of Python scripts to parse listings from both websites automatically.
+Aside from the sheer volume of raw HTML to be processed, the cleaning and sorting was hampered by a number of other factors, such as: 
+- large changes in website formatting across the timeline of the archives
+- a lack of detailed drug labeling and categorization at the level of the raw HTML
+
+In the end, I managed to develop a relatively concise set of Python scripts that parsed the archives automatically, extracting the core listings information.
 
 ## Sorting the Data
 
