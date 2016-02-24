@@ -7,7 +7,7 @@ title: DarkNet | Tracking the underground drug trade
 
 While at Insight, I carried out a consulting project for researchers at [Epidemico](http://www.epidemico.com), a Boston-based data science company working in the population health domain. 
 
-The goal of the project was to clean and sort a large archive of DarkNet drug sales listings, providing a potentially valuable resource for Epidemico and their clients. I also carried out descriptive analyses of the data, with a focus on metrics such as country of origin, product type, and pricing. In one surprising result, I found evidence of large price differences between DarkNet sales of certain pharmaceuticals and typically reported street prices.
+The goal of the project was to clean and sort a large archive of DarkNet drug sales listings, providing a potentially valuable resource for Epidemico and their clients. I also carried out descriptive analyses of the data, with a focus on metrics such as country of origin, product type, and pricing.
 
 ## The Dataset
 
@@ -43,7 +43,7 @@ In the end, I managed to develop a relatively concise set of Python scripts that
 
 For each date contained in the archives, the extracted information was then sorted into a dataframe (Pandas), and saved to .csv file. When data were extracted for the entire timeline, I loaded the resulting .csv files into a MySQL database for final storage.
 
-The archive contains listings of very many drug types and from thousands of vendors. To focus on a particular drug, we can extract listings that include text matches to a given product or for a given date, for example, and from there do additional post-processing or analyses. An example of the type of listings extracted from the archive:
+The archive contains listings of very many drug types and from thousands of vendors. To focus on a particular drug, we can extract listings that include text matches to a given product or for a given date, for example, and from there carry out additional post-processing and analyses. An example of the type of listings extracted from the archive:
 
 ![Example drug listings]({{ site.baseurl }}/images/table1.png "Example drug listings")
 
@@ -51,7 +51,7 @@ The archive contains listings of very many drug types and from thousands of vend
 
 I performed several descriptive analyses on the data, with a focus on the broad features of the distribution of drug listings e.g., country of origin, product type, and pricing.
 
-For example, by sourcing where individual listings were 'Shipped From', we can illustrate the distribution of listings by country of origin. Perhaps not surprisingly, the USA accounts for a large proportion of individual listings (just under 30%), with several european countries also accounting for sizeable portions of the overall market listings:
+For example, by sourcing where individual listings were 'Shipped From', we can illustrate the distribution of listings by country of origin. Perhaps not surprisingly, the USA accounts for a large proportion of individual listings (just under 30%), with several European countries also accounting for sizeable portions of the overall market listings:
 
 ![Listings origin]({{ site.baseurl }}/images/figure3.png "Listings origin")
 
