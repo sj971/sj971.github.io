@@ -56,7 +56,7 @@ For example, by sourcing where individual listings were 'Shipped From', we can i
 ![Listings origin]({{ site.baseurl }}/images/figure3.png "Listings origin")
 
 ## Summary
-The key deliverable of my project was a successfully cleaned and sorted archive of DarkNet drug sales listings. 
+The key goal of my project was to provide a cleaned and sorted archive of DarkNet drug sales listings, which I successfully delivered on. 
 
 Numerous large-scale DarkNet websites are still in active operation (e.g., AlphaBay). By developing tools to study these markets, I've provided a valuable reference database which Epidemico and their clients can use in studying black market drug trading.
 <!--more-->
