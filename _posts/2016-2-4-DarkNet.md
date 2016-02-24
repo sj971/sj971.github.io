@@ -32,7 +32,8 @@ temp = soup.find_all("div", "seller-info text-muted")[0]
 vendor = temp.find_all("a")[0].string
 ```
 
-Aside from the sheer volume of raw HTML to be processed, cleaning was hampered by factors such as: 
+Aside from the sheer volume of raw HTML to be processed, cleaning was hampered by factors such as:
+
 - large changes in website formatting across the timeline of the archives
 - a lack of detailed drug labeling and categorization at the level of the raw HTML
 
