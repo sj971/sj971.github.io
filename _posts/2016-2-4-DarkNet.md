@@ -19,7 +19,7 @@ Listings spanned the period from early 2014 through mid 2015, and were downloade
 
 The first task was to extract from the archives all HTML files related to product listings, ignoring configuration files, image files, etc. In total, the dataset contained approximately 20GB of raw HTML, with over 500,000 product listings.
 
-I navigated individual pages using Beautiful Soup, a standard Python package for processing HTML, searching for listings of drug products. I extracted key information about individual drug listings (e.g., product, country of origin, vendor, price, etc.). 
+Individual pages were navigated using Beautiful Soup, a standard Python package for processing HTML. I searched for key information about individual drug listings (e.g., product, country of origin, vendor, price, etc.). 
 
 For example, vendor ID was extracted using code similar to below:
 
@@ -49,6 +49,8 @@ The archive contains listings of very many drug types and from thousands of vend
 
 ## Descriptive Analyses
 
+### Country of Origin
+
 I performed several descriptive analyses on the data, with a focus on the broad features of the distribution of drug listings e.g., country of origin, product type, and pricing.
 
 For example, by sourcing where individual listings were 'Shipped From', we can illustrate the distribution of listings by country of origin. Perhaps not surprisingly, the USA accounts for a large proportion of individual listings (just under 30%), with several European countries also accounting for sizeable portions of the overall market listings:
@@ -56,5 +58,7 @@ For example, by sourcing where individual listings were 'Shipped From', we can i
 ![Listings origin]({{ site.baseurl }}/images/figure3.png "Listings origin")
 
 ## Summary
-I successfully cleaned and sorted a large archive of DarkNet drug sales listings. Numerous large-scale DarkNet websites are still in active operation (e.g., AlphaBay). By developing a database and tools to study these markets, I have provided a valuable resource upon which Epidemico and their clients can base investigation of currently active marketplaces.
+The key deliverable of my project was a successfully cleaned and sorted archive of DarkNet drug sales listings. 
+
+Numerous large-scale DarkNet websites are still in active operation (e.g., AlphaBay). By developing tools to study these markets, I've provided a valuable reference database which Epidemico and their clients can use in studying black market drug trading.
 <!--more-->
