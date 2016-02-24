@@ -51,9 +51,9 @@ The archive contains listings of very many drug types and from thousands of vend
 
 I performed several descriptive analyses on the data, with a focus on the broad features of the distribution of drug listings e.g., country of origin, product type, and pricing.
 
-For example, by sourcing where individual listings were 'Shipped From', we can illustrate the distribution of listings by country of origin. Perhaps not surprisingly, the US accounts for a large proportion of individual listings:
+For example, by sourcing where individual listings were 'Shipped From', we can illustrate the distribution of listings by country of origin. Perhaps not surprisingly, the USA accounts for a large proportion of individual listings (just under 30%), with several european countries also accounting for sizeable portions of the overall market listings:
 
-![Listings origin]({{ site.baseurl }}/images/fig3_mod.png "Listings origin")
+![Listings origin]({{ site.baseurl }}/images/figure3.png "Listings origin")
 
 ## Summary
 I successfully cleaned and sorted a large archive of DarkNet drug sales listings. Numerous large-scale DarkNet marketplaces are still in active operation (e.g., AlphaBay). By developing a database and tools to study such marketplaces, I have provided a valuable resource upon which Epidemico and their clients can base investigation of currently active marketplaces.
