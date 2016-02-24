@@ -56,5 +56,5 @@ For example, by sourcing where individual listings were 'Shipped From', we can i
 ![Listings origin]({{ site.baseurl }}/images/figure3.png "Listings origin")
 
 ## Summary
-I successfully cleaned and sorted a large archive of DarkNet drug sales listings. Numerous large-scale DarkNet marketplaces are still in active operation (e.g., AlphaBay). By developing a database and tools to study such marketplaces, I have provided a valuable resource upon which Epidemico and their clients can base investigation of currently active marketplaces.
+I successfully cleaned and sorted a large archive of DarkNet drug sales listings. Numerous large-scale DarkNet websites are still in active operation (e.g., AlphaBay). By developing a database and tools to study these markets, I have provided a valuable resource upon which Epidemico and their clients can base investigation of currently active marketplaces.
 <!--more-->
