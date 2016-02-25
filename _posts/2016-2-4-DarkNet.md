@@ -39,7 +39,7 @@ vendor = temp.find_all("a")[0].string
 
 For each date contained in the archives, the extracted information was then sorted into a dataframe (Pandas), and saved to .csv file. When data were extracted for the entire timeline, the resulting .csv files were loaded into a MySQL database for final storage.
 
-A cleaned up example listings contained in the archive:
+A cleaned up example of listings contained in the archive (note that prices are in BitCoin):
 
 ![Example drug listings]({{ site.baseurl }}/images/table1.png "Example drug listings")
 
@@ -54,5 +54,7 @@ For example, by sourcing where individual listings were 'Shipped From', we can i
 ![Listings origin]({{ site.baseurl }}/images/figure3.png "Listings origin")
 
 ## Summary
-The key goal of my project was to provide a cleaned and sorted archive of DarkNet drug sales listings, which I successfully delivered on. Numerous large-scale, DarkNet websites are still in active operation (e.g., AlphaBay). By developing tools to study these markets, I've provided a valuable resource which Epidemico and their clients can take advantage of to study black market drug trading.
+The key goal of my consulting project was to provide a cleaned and sorted archive of DarkNet drug sales listings, which I successfully delivered on. 
+
+Numerous large-scale, DarkNet websites are still in active operation (e.g., AlphaBay). By developing tools to study these markets, I've provided a valuable resource which Epidemico and their clients can take advantage of in studying black market drug trading.
 <!--more-->
