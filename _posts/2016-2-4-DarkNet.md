@@ -43,6 +43,7 @@ A cleaned up example of listings contained in the archive (note that prices are 
 
 ![Example drug listings]({{ site.baseurl }}/images/table1.png "Example drug listings")
 
+
 Date         | Product                     | Origin          | Vender          | Price
 ------------ | --------------------------- | --------------- | --------------- | -----------
 2014-04-27   | 15mg Adderall IR            | United States   | Asphyxiated     | BTC 0.0119
@@ -51,6 +52,7 @@ Date         | Product                     | Origin          | Vender          |
 2014-04-27   | Methadone 40mg capsule x 2  | Germany         | CalmBlueOcean   | BTC 0.1058
 2014-04-27   | Cocaine 1.7grams            | Canada          | carteldelnorte  | BTC 0.4357
 2014-04-27   | 10 0.25mg Xanax             | Italy           | justxanax       | BTC 0.0302
+
 
 ## Descriptive Analyses
 
