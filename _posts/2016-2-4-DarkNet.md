@@ -51,7 +51,7 @@ Date         | Product                     | Origin          | Vender          |
 2014-04-27   | Diazepam 10 x 10mg          | United Kingdom  | ukmedsdiazepam  | BTC 0.0357
 2014-04-27   | Methadone 40mg capsule x 2  | Germany         | CalmBlueOcean   | BTC 0.1058
 2014-04-27   | Cocaine 1.7grams            | Canada          | carteldelnorte  | BTC 0.4357
-2014-04-27   | 10 0.25mg Xanax             | Italy           | justxanax       | BTC 0.0302
+2014-04-27   |    10 0.25mg Xanax          | Italy           | justxanax       | BTC 0.0302
 
 
 ## Descriptive Analyses
