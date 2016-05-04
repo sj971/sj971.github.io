@@ -43,6 +43,11 @@ A cleaned up example of listings contained in the archive (note that prices are 
 
 ![Example drug listings]({{ site.baseurl }}/images/table1.png "Example drug listings")
 
+Date | Product | Origin
+---- | ------- | ------
+2014-04-27 | 15mg Adderall IR | United States
+2014-04-27 | 10x Valium | Austria
+
 ## Descriptive Analyses
 
 ### Country of Origin
