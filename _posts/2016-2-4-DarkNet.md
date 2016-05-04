@@ -44,7 +44,7 @@ A cleaned up example of listings contained in the archive (note that prices are 
 ![Example drug listings]({{ site.baseurl }}/images/table1.png "Example drug listings")
 
 Date         | Product                     | Origin          | Vender          | Price
------------  | --------------------------  | --------------  | --------------  | -----------
+------------ | --------------------------- | --------------- | --------------- | -----------
 2014-04-27   | 15mg Adderall IR            | United States   | Asphyxiated     | BTC 0.0119
 2014-04-27   | 10x Valium                  | Austria         | acab23          | BTC 0.0447
 2014-04-27   | Diazepam 10 x 10mg          | United Kingdom  | ukmedsdiazepam  | BTC 0.0357
