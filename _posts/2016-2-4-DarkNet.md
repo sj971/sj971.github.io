@@ -43,17 +43,6 @@ A cleaned up example of listings contained in the archive (note that prices are 
 
 ![Example drug listings]({{ site.baseurl }}/images/table1.png "Example drug listings")
 
-
-Date         | Product                     | Origin          | Vender          | Price
------------- | --------------------------- | --------------- | --------------- | -----------
-2014-04-27   | 15mg Adderall IR            | United States   | Asphyxiated     | BTC 0.0119
-2014-04-27   | 10x Valium                  | Austria         | acab23          | BTC 0.0447
-2014-04-27   | Diazepam 10 x 10mg          | United Kingdom  | ukmedsdiazepam  | BTC 0.0357
-2014-04-27   | Methadone 40mg capsule x 2  | Germany         | CalmBlueOcean   | BTC 0.1058
-2014-04-27   | Cocaine 1.7grams            | Canada          | carteldelnorte  | BTC 0.4357
-2014-04-27   |    10 0.25mg Xanax          | Italy           | justxanax       | BTC 0.0302
-
-
 ## Descriptive Analyses
 
 ### Country of Origin
@@ -62,7 +51,7 @@ I performed several descriptive analyses on the data, with a focus on the broad 
 
 For example, by sourcing where individual listings were 'Shipped From', we can illustrate the distribution of listings by country of origin. Perhaps not surprisingly, the USA accounts for a large proportion of individual listings (just under 30%), with several European countries also accounting for sizeable portions of the overall market listings:
 
-![Listings origin]({{ site.baseurl }}/images/figure3.png "Listings origin")
+![Listings origin]({{ site.baseurl }}/images/figure1.png "Listings origin")
 
 ## Summary
 The key goal of my consulting project was to provide a cleaned and sorted archive of DarkNet drug sales listings, which I successfully delivered on. 
