@@ -49,7 +49,7 @@ Example listings from the Evolution dataset are shown below (note that prices ar
 
 I performed several descriptive analyses on the data, with a focus on the broad features of the distribution of drug listings e.g., country of origin, product type, and pricing.
 
-For example, by sourcing where individual listings were 'Shipped From', we can illustrate the distribution of listings by country of origin. Perhaps not surprisingly, the USA accounts for a large proportion of individual listings (just under 30%), with several European countries also accounting for sizeable portions of the overall market listings:
+For example, by sourcing where individual listings were 'Shipped From', we can illustrate the distribution of listings by country of origin. Perhaps not surprisingly, the USA accounts for a large proportion of individual listings (just under 30%), with several European countries also accounting for sizeable portions of the overall market listings (analysis below performed on data from the Evolution website):
 
 ![Listings origin]({{ site.baseurl }}/images/figure1.png "Listings origin")
 
