@@ -13,7 +13,7 @@ The goal of the project was to clean and sort a large archive of DarkNet drug sa
 
 The data consisted of sales listings from two popular, underground websites known as 'Agora' and 'Evolution'. 
 
-Listings spanned the period from early 2014 through mid 2015, and were downloaded from a publicly accessible archive: <http://www.gwern.net/Black-market%20archives>.
+Listings spanned the period from early 2014 through mid 2015, and were downloaded from a publicly accessible archive: <http://www.gwern.net/Black-market%20archives>
 
 ## Cleaning the Data
 
