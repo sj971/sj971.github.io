@@ -39,7 +39,7 @@ vendor = temp.find_all("a")[0].string
 
 For each date contained in the archives, the extracted information was then sorted into a dataframe (Pandas), and saved to .csv file. When data were extracted for the entire timeline, the resulting .csv files were loaded into a MySQL database for final storage.
 
-A cleaned up example of listings contained in the archive (note that prices are in BitCoin):
+Example listings from the Evolution dataset are shown below (note that prices are in BitCoin, and the product info. has been cleaned up for illustrative purposes):
 
 ![Example drug listings]({{ site.baseurl }}/images/table1.png "Example drug listings")
 
