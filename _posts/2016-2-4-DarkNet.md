@@ -9,15 +9,15 @@ While at Insight, I carried out a consulting project for researchers at [Epidemi
 
 The goal of the project was to clean and sort a large archive of DarkNet drug sales listings, providing a potentially valuable resource for Epidemico and their clients. I also carried out descriptive analyses of the data, with a focus on metrics such as country of origin, product type, and pricing.
 
-## The Dataset
+## The Datasets
 
-The dataset consisted of sales listings from two popular, underground websites known as 'Agora' and 'Evolution'. 
+The data consisted of sales listings from two popular, underground websites known as 'Agora' and 'Evolution'. 
 
 Listings spanned the period from early 2014 through mid 2015, and were downloaded from a publicly accessible archive: <http://www.gwern.net/Black-market%20archives>.
 
 ## Cleaning the Data
 
-The first task was to extract from the archives all HTML files related to product listings, ignoring configuration files, image files, etc. In total, the dataset contained approximately 20GB of raw HTML, with approximately 2,500,000 product listings. Aside from the sheer volume of raw HTML to be processed, cleaning was hampered by factors such as:
+The first task was to extract from the archives all HTML files related to product listings, ignoring configuration files, image files, etc. Overall, the datasets contained approximately 20GB of raw HTML, with a combined total of just under 2,500,000 product listings. Aside from the sheer volume of raw HTML to be processed, cleaning was hampered by factors such as:
   
 - large changes in website formatting across the timeline of the archives
 - the lack of detailed drug labeling and categorization at the level of the raw HTML
