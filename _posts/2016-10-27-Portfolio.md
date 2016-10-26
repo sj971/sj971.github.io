@@ -15,7 +15,8 @@ Below I provide links to a variety of my analytics experience, from short data s
 - Mathematical model: example Matlab code implementing an Information Theory-based model of luminance contrast encoding and decoding in vision (**see Chapter 3, p.44-50 of thesis for related math)
 
  [Behavioral Risk Factor Surveillance System](http://www.cdc.gov/brfss/)
-[link](http://www.cdc.gov/brfss/){:target=“_blank”}
+ 
+ [link](http://www.cdc.gov/brfss/){:target=“_blank”}
 
 ![Model fitting]({{ site.baseurl }}/images/figure2_model_fitting.png "Model fitting")
 
