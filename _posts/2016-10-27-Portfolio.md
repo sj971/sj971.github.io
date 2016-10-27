@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Portfolio | Data Science, Computational Neuroscience
+title: Data Scientist and Computational Neuroscientist
 ---
 
 <!--more-->
