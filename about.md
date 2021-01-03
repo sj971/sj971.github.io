@@ -8,6 +8,6 @@ I am a seasoned, full-stack data science consultant (**BCG**, **IBM**), with dom
 
 Previously, I completed a **PhD** in computational neuroscience at **New York University**, working on problems related to precision in visual short-term memory.
 
-In my spare time I like to travel (particularly in the Desert Southwest), and I am also an advanced amateur songwriter and method actor.
+In my spare time I like to travel (particularly in the Desert Southwest), and am a proficient amateur songwriter and method actor.
  
 **Contact me:** [sj971@nyu.edu](mailto:sj971@nyu.edu)
