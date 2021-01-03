@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a **data scientist consultant** with domain expertise spanning **healthcare, insurance, and financial services**.
+I am a **data science consultant (BCG, IBM)** with domain expertise spanning **healthcare, insurance, and financial services**.
 
 Previously, I completed a **PhD in computational neuroscience** at **New York University**, working on problems related to precision in visual short-term memory.
 
