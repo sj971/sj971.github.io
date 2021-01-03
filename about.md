@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 ---
 
-I am a **data science consultant (BCG, IBM)** with domain expertise spanning **healthcare, insurance, and financial services**.
+I am a seasoned, full-stack data science consultant (**BCG**, **IBM**), with domain expertise spanning **healthcare, insurance, and financial service** industries.
 
-Previously, I completed a **PhD in computational neuroscience** at **New York University**, working on problems related to precision in visual short-term memory.
+Previously, I completed a **PhD** in computational neuroscience at **New York University**, working on problems related to precision in visual short-term memory.
 
-In my spare time I like to travel, and can occasionally be found fronting a small folk band at venues around NY and elsewhere.
+In my spare time I like to travel (particularly in the Desert Southwest), and I am also an advanced amateur songwriter and method actor.
  
 **Contact me:** [sj971@nyu.edu](mailto:sj971@nyu.edu)
